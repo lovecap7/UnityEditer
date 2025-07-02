@@ -1045,7 +1045,7 @@ GameObject:
   - component: {fileID: 486891215}
   - component: {fileID: 486891214}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: BossAreaWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,9 +3176,9 @@ Transform:
   - {fileID: 1836921283}
   - {fileID: 1973336396}
   - {fileID: 1508557409}
+  - {fileID: 1829500365}
   - {fileID: 2108436137}
   - {fileID: 486891213}
-  - {fileID: 1829500365}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829500364
@@ -4047,7 +4047,7 @@ GameObject:
   - component: {fileID: 2108436139}
   - component: {fileID: 2108436138}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: BossAreaWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
