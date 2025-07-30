@@ -13,6 +13,10 @@ public class ExportData : MonoBehaviour
     //出力データの名前
     public string m_name = "ObjectTransformData";
 
+
+    //出力先
+    public string m_fileName = "Stage1";
+
     void Start()
     {
         // 出力データを格納するリスト
@@ -39,7 +43,7 @@ public class ExportData : MonoBehaviour
         }
 
         // ファイル出力先（Assetsフォルダ直下）
-        string path = Application.dataPath + "/" + m_name + ".csv";
+        string path = Application.dataPath + "/CSV/" +m_fileName + "/" + m_name + ".csv";
         //この関数は配列の1要素につき1行ずつ追加していく
         File.WriteAllLines(path, lines);//File.WriteAllLines(ファイルのパス, 文字列の配列またはリスト);
 

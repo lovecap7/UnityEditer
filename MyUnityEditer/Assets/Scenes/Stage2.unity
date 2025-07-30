@@ -383,6 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 103597201}
   m_name: Stage2CharacterTransformData
+  m_fileName: Stage2
 --- !u!4 &103597203
 Transform:
   m_ObjectHideFlags: 0
@@ -803,6 +804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 183994791}
   m_name: Stage2RespawnAreaData
+  m_fileName: Stage2
 --- !u!4 &183994793
 Transform:
   m_ObjectHideFlags: 0
@@ -996,6 +998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 207729567}
   m_name: Stage2TransformData
+  m_fileName: Stage2
 --- !u!4 &207729569
 Transform:
   m_ObjectHideFlags: 0
@@ -1696,7 +1699,7 @@ Transform:
   m_GameObject: {fileID: 427766226}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 24.5, y: 0.5, z: 10}
+  m_LocalPosition: {x: 24.5, y: 0.5, z: -24.6}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4357,6 +4360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1179037586}
   m_name: Stage2EventTransformData
+  m_fileName: Stage2
 --- !u!4 &1179037588
 Transform:
   m_ObjectHideFlags: 0
@@ -4697,7 +4701,7 @@ Transform:
   m_GameObject: {fileID: 1268423366}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 293, y: 0.5, z: 110.4}
+  m_LocalPosition: {x: 296.9, y: 0.5, z: 161.3}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4884,6 +4888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1328977767}
   m_name: Stage2CollisionTransformData
+  m_fileName: Stage2
 --- !u!4 &1328977769
 Transform:
   m_ObjectHideFlags: 0
@@ -6273,7 +6278,7 @@ Transform:
   m_GameObject: {fileID: 1781934393}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 80.3, y: 0.5, z: 10}
+  m_LocalPosition: {x: 80.3, y: 0.5, z: 12.5}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7635,8 +7640,8 @@ Transform:
   m_GameObject: {fileID: 2107017379}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 210.6, y: 0.5, z: 120.1}
-  m_LocalScale: {x: 10, y: 1, z: 5}
+  m_LocalPosition: {x: 207.2, y: 0.5, z: 58.5}
+  m_LocalScale: {x: 2, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1179037588}
@@ -8184,6 +8189,6 @@ SceneRoots:
   - {fileID: 103597203}
   - {fileID: 1179037588}
   - {fileID: 183994793}
-  - {fileID: 976678132}
   - {fileID: 207729569}
+  - {fileID: 976678132}
   - {fileID: 1032720853}

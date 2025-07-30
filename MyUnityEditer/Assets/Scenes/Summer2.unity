@@ -1651,7 +1651,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 197863225}
-  m_name: StageTransformData
+  m_name: Stage1TransformData
+  m_fileName: Stage1
 --- !u!1001 &207434746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2052,7 +2053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 304940930}
-  m_name: RespawnAreaData
+  m_name: Stage1RespawnAreaData
+  m_fileName: Stage1
 --- !u!4 &304940932
 Transform:
   m_ObjectHideFlags: 0
@@ -3006,7 +3008,7 @@ Transform:
   m_GameObject: {fileID: 486891212}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 180.3, y: 0.5, z: 10}
+  m_LocalPosition: {x: 181, y: 0.5, z: 11.3}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3305,7 +3307,7 @@ Transform:
   m_GameObject: {fileID: 506700205}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 82.8, y: 0.5, z: 10}
+  m_LocalPosition: {x: 82.8, y: 0.5, z: 10.9}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7936,7 +7938,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1249462719}
-  m_name: EventTransformData
+  m_name: Stage1EventTransformData
+  m_fileName: Stage1
 --- !u!4 &1249462721
 Transform:
   m_ObjectHideFlags: 0
@@ -10201,7 +10204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1609398620}
-  m_name: CharacterTransformData
+  m_name: Stage1CharacterTransformData
+  m_fileName: Stage1
 --- !u!1001 &1619775353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11300,7 +11304,7 @@ Transform:
   m_GameObject: {fileID: 1789601067}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 63.1, y: 0.5, z: 10}
+  m_LocalPosition: {x: 63.1, y: 0.5, z: -4.1}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11418,7 +11422,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1821856877}
-  m_name: StageCollisionTransformData
+  m_name: Stage1CollisionTransformData
+  m_fileName: Stage1
 --- !u!4 &1821856879
 Transform:
   m_ObjectHideFlags: 0
@@ -13633,7 +13638,7 @@ Transform:
   m_GameObject: {fileID: 2108436136}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 160, y: 0.5, z: 10}
+  m_LocalPosition: {x: 160, y: 0.5, z: -4.1}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
