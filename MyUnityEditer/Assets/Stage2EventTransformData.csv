@@ -1,5 +1,5 @@
 Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ
-EventAreaS,24.5,0.5,10,90,90,0,10,1,5
-EventAreaE,155.8,0.5,10,90,270,0,10,1,5
-BossAreaS,211,0.5,10,90,90,0,10,1,5
-BossAreaE,234.4,0.5,10,90,270,0,10,1,5
+Event1AreaS,24.5,0.5,10,90,90,0,10,1,5
+Event1AreaE,80.3,0.5,10,90,270,0,10,1,5
+BossAreaS,210.6,0.5,120.1,90,90,0,10,1,5
+BossAreaE,293,0.5,110.4,90,270,0,10,1,5
