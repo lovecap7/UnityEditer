@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Grope1
+  - Grope2
+  - Grope3
+  - Grope4
+  - Grope5
   layers:
   - Default
   - TransparentFX
