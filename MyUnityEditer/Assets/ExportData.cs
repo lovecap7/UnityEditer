@@ -23,7 +23,7 @@ public class ExportData : MonoBehaviour
         List<string> lines = new List<string>();
 
         // ヘッダー（列名）を追加
-        lines.Add("Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GropeTag");
+        lines.Add("Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GroupTag");
 
         //foreachはC++でいう範囲for文
         // 子オブジェクトをすべて取得（親自身を除外）

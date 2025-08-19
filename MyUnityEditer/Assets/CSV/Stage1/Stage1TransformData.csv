@@ -1,4 +1,4 @@
-Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GropeTag
+Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GroupTag
 Block_Grass,0,-9.3,0,0,0,0,5000,1000,2000,Untagged
 Block_Grass,14.13,0.73,4.43,0,0,0,100,100,100,Untagged
 Block_Grass,23.93,0.73,0.68,0,0,0,100,100,100,Untagged
