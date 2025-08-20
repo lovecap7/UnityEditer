@@ -23,7 +23,7 @@ public class ExportData : MonoBehaviour
         List<string> lines = new List<string>();
 
         // ヘッダー（列名）を追加
-        lines.Add("Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GroupTag");
+        lines.Add("Name,PosX,PosY,PosZ,RotX,RotY,RotZ,ScaleX,ScaleY,ScaleZ,GroupTag,HP,Armor,AttackPower,Speed");
 
         //foreachはC++でいう範囲for文
         // 子オブジェクトをすべて取得（親自身を除外）
@@ -35,12 +35,26 @@ public class ExportData : MonoBehaviour
             Vector3 scale = child.localScale;
             //グループ
             string tagName  = child.tag;
+            //ステータス
+            int hp = 0;
+            int armor = 0;
+            int attackPower = 0;
+            float speed = 0.0f;
+            //ステータスがあるかどうか
+            if(child.GetComponent<StatusData>())
+            {
+                StatusData status = child.GetComponent<StatusData>();
+                hp = status.hp;
+                armor = (int)status.armor;
+                attackPower = status.attackPower;
+                speed = status.speed;
+            }
 
             //$""は文字列補間で文字列に変数や数式を入れるときに使う
             //座標や大きさなどの変数を記録するために使う
             //　"," ごとに区切っていく
             // 名前と各データを1行にまとめて追加
-            string line = $"{child.name},{pos.x},{pos.y},{pos.z},{rot.x},{rot.y},{rot.z},{scale.x},{scale.y},{scale.z},{tagName}";
+            string line = $"{child.name},{pos.x},{pos.y},{pos.z},{rot.x},{rot.y},{rot.z},{scale.x},{scale.y},{scale.z},{tagName},{hp},{armor},{attackPower},{speed}";
             lines.Add(line);//行を追加
         }
 
