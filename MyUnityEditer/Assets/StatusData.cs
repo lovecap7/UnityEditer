@@ -21,4 +21,6 @@ public class StatusData : MonoBehaviour
     public int attackPower = 0;
     //ˆÚ“®‘¬“x
     public float speed = 0.0f;
+    //’Tõ”ÍˆÍ
+    public float searchPlaceRang = 0.0f;
 }
