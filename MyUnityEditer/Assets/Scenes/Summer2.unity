@@ -2333,9 +2333,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 900
+  modelRotateSpeed: 25
 --- !u!4 &213061904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
@@ -6045,14 +6045,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 7000
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 10000
+  modelRotateSpeed: 25
 --- !u!4 &523207910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65015ebe132a370428c9611c608055bd, type: 3}
@@ -8142,9 +8142,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!1001 &863534167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8464,9 +8464,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 120
+  searchDistance: 800
+  modelRotateSpeed: 25
 --- !u!4 &897043592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fed5221b3eafe8045af0d1d2566cf8f2, type: 3}
@@ -13070,9 +13070,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!1001 &1337051369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14014,9 +14014,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 900
+  modelRotateSpeed: 25
 --- !u!4 &1400197124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fed5221b3eafe8045af0d1d2566cf8f2, type: 3}
@@ -14274,9 +14274,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!1 &1420411426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -14299,9 +14299,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 900
+  modelRotateSpeed: 25
 --- !u!1001 &1421722324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15417,9 +15417,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 120
+  searchDistance: 800
+  modelRotateSpeed: 25
 --- !u!4 &1511876749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -15756,9 +15756,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!1001 &1550952974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16553,9 +16553,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!4 &1607797178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -17218,9 +17218,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 120
+  searchDistance: 800
+  modelRotateSpeed: 25
 --- !u!4 &1673487275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -17456,9 +17456,9 @@ MonoBehaviour:
   attackPower: 10
   speed: 2
   searchPlaceRang: 800
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 100
+  searchDistance: 500
+  modelRotateSpeed: 25
 --- !u!1001 &1707061500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20566,9 +20566,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 900
+  modelRotateSpeed: 25
 --- !u!1001 &1986986788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20801,9 +20801,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 120
+  searchDistance: 800
+  modelRotateSpeed: 25
 --- !u!4 &2023598693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -21141,9 +21141,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 400
+  modelRotateSpeed: 30
 --- !u!1001 &2055475285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21490,9 +21490,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 120
+  searchDistance: 800
+  modelRotateSpeed: 25
 --- !u!1001 &2078779372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22254,9 +22254,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 900
+  modelRotateSpeed: 25
 --- !u!1001 &2125452783
 PrefabInstance:
   m_ObjectHideFlags: 0
