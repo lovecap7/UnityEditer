@@ -2815,11 +2815,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.4
+      value: 70.41
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.55
+      value: -7.69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3152,7 +3152,7 @@ Transform:
   m_GameObject: {fileID: 591910010}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4793,6 +4793,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &943889573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
@@ -5022,6 +5026,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &976678128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,6 +5262,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1020176733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6765,7 +6777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -4.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6935,6 +6947,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1304546947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7036,6 +7052,10 @@ MonoBehaviour:
   armor: 2
   attackPower: 120
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1327180986
 GameObject:
   m_ObjectHideFlags: 0
@@ -8060,6 +8080,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1462882360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8481,6 +8505,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1567190336
 GameObject:
   m_ObjectHideFlags: 0
@@ -8724,6 +8752,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1596637828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -8885,6 +8917,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1647113348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 182f85b21f863c344a0cabede3bdd0ef, type: 3}
@@ -9074,7 +9110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9222,6 +9258,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1706696277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d85025ae66bf5134b9e26bdad0b5c992, type: 3}
@@ -9545,6 +9585,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1759556355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9957,6 +10001,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1797634302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -10052,6 +10100,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1807055235 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d85025ae66bf5134b9e26bdad0b5c992, type: 3}
@@ -10083,6 +10135,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1826874272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d85025ae66bf5134b9e26bdad0b5c992, type: 3}
@@ -10378,6 +10434,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1875864327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -10399,6 +10459,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1885894593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 182f85b21f863c344a0cabede3bdd0ef, type: 3}
@@ -10420,6 +10484,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1887156766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10519,6 +10587,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1909582213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10941,6 +11013,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1952962876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11400,6 +11476,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &2038010823 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 182f85b21f863c344a0cabede3bdd0ef, type: 3}
@@ -11421,6 +11501,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &2040403025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c71c4d05c2ed6584b9fbde8ee2ba98fa, type: 3}
@@ -11707,6 +11791,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &2057686619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -11802,6 +11890,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
+  searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &2097949878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12172,7 +12264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.3
+      value: -9.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12328,7 +12420,7 @@ Transform:
   m_GameObject: {fileID: 2119744318}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.043619405, w: 0.9990483}
-  m_LocalPosition: {x: 69.4, y: 2.27, z: -4.2}
+  m_LocalPosition: {x: 69.41, y: 2.27, z: -4.2}
   m_LocalScale: {x: 4, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []

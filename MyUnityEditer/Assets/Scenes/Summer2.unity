@@ -319,7 +319,7 @@ Transform:
   m_GameObject: {fileID: 19292770}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.08715578, w: 0.9961947}
-  m_LocalPosition: {x: 43.42, y: 0.77, z: 0}
+  m_LocalPosition: {x: 43.41, y: 0.82, z: 0}
   m_LocalScale: {x: 0.45, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2333,6 +2333,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &213061904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
@@ -3481,11 +3484,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 106.12
+      value: 106.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.4800003
+      value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5057,7 +5060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.02
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6047,6 +6050,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &523207910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 65015ebe132a370428c9611c608055bd, type: 3}
@@ -6268,7 +6274,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.3
+      value: -9.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6467,11 +6473,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 123.82
+      value: 123.78
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5000002
+      value: -3.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8136,6 +8142,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &863534167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8455,6 +8464,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &897043592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fed5221b3eafe8045af0d1d2566cf8f2, type: 3}
@@ -12973,7 +12985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.3
+      value: -9.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13058,6 +13070,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1337051369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13999,6 +14014,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1400197124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fed5221b3eafe8045af0d1d2566cf8f2, type: 3}
@@ -14256,6 +14274,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1 &1420411426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -14278,6 +14299,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1421722324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15393,6 +15417,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1511876749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -15729,6 +15756,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1550952974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16523,6 +16553,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1607797178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -17048,7 +17081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17185,6 +17218,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &1673487275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -17420,6 +17456,9 @@ MonoBehaviour:
   attackPower: 10
   speed: 2
   searchPlaceRang: 800
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1707061500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19336,7 +19375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.23
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20527,6 +20566,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &1986986788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20690,11 +20732,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.79
+      value: 43.81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20759,6 +20801,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &2023598693 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -20921,7 +20966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.65
+      value: -2.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21071,6 +21116,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!4 &2054225246 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
@@ -21093,6 +21141,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &2055475285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21439,6 +21490,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &2078779372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21584,7 +21638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.3
+      value: -9.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bef24d3bab8c9344ebafb6497238617c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22200,6 +22254,9 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
+  viewingAngle: 0
+  searchDistance: 0
+  modelRotateSpeed: 0
 --- !u!1001 &2125452783
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -23,4 +23,10 @@ public class StatusData : MonoBehaviour
     public float speed = 0.0f;
     //’Tõ”ÍˆÍ
     public float searchPlaceRang = 0.0f;
+    //‹–ìŠp
+    public float viewingAngle = 0.0f;
+    //õ“G”ÍˆÍ
+    public float searchDistance = 0.0f;
+    //ù‰ñ‘¬“x
+    public float modelRotateSpeed = 0.0f;
 }
