@@ -243,7 +243,7 @@ Transform:
   m_GameObject: {fileID: 974662447}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.007439, y: -3.9790597, z: 4.1195393}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -348,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 1682595867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.9925618, y: -3.9790597, z: 4.1195393}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -550,6 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 1895960723}
   m_name: SelectStageTransformData
+  m_fileName: Other
 --- !u!4 &1895960725
 Transform:
   m_ObjectHideFlags: 0
@@ -596,7 +597,7 @@ Transform:
   m_GameObject: {fileID: 2038692340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.00744, y: -3.9790597, z: 4.1195393}
+  m_LocalPosition: {x: 16, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

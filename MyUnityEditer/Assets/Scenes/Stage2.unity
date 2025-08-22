@@ -4793,10 +4793,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 2000
+  viewingAngle: 100
+  searchDistance: 700
+  modelRotateSpeed: 20
 --- !u!4 &943889573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 048efafe4e0ca4246a607605d8bbcb3e, type: 3}
@@ -5022,14 +5022,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 600
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1 &976678128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,14 +5258,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1 &1020176733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6943,14 +6943,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 600
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1001 &1304546947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7053,9 +7053,9 @@ MonoBehaviour:
   attackPower: 120
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 10000
+  modelRotateSpeed: 30
 --- !u!1 &1327180986
 GameObject:
   m_ObjectHideFlags: 0
@@ -8080,10 +8080,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 2000
+  viewingAngle: 100
+  searchDistance: 700
+  modelRotateSpeed: 20
 --- !u!1001 &1462882360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8501,14 +8501,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 1500
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 250
+  searchDistance: 500
+  modelRotateSpeed: 10
 --- !u!1 &1567190336
 GameObject:
   m_ObjectHideFlags: 0
@@ -8748,14 +8748,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!4 &1596637828 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -8918,8 +8918,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!4 &1647113348 stripped
 Transform:
@@ -9254,14 +9254,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!4 &1706696277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d85025ae66bf5134b9e26bdad0b5c992, type: 3}
@@ -9581,14 +9581,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1001 &1759556355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9997,14 +9997,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1 &1797634302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -10101,8 +10101,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!4 &1807055235 stripped
 Transform:
@@ -10136,8 +10136,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!4 &1826874272 stripped
 Transform:
@@ -10430,14 +10430,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 700
+  hp: 650
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 3000
+  viewingAngle: 120
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!4 &1875864327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 577f1c9bf9010dc4c922753173ae342f, type: 3}
@@ -10459,10 +10459,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 2000
+  viewingAngle: 100
+  searchDistance: 700
+  modelRotateSpeed: 20
 --- !u!1 &1885894593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 182f85b21f863c344a0cabede3bdd0ef, type: 3}
@@ -10485,8 +10485,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!1001 &1887156766
 PrefabInstance:
@@ -10588,8 +10588,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!1001 &1909582213
 PrefabInstance:
@@ -11014,8 +11014,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!1001 &1952962876
 PrefabInstance:
@@ -11472,14 +11472,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 600
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!1 &2038010823 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 182f85b21f863c344a0cabede3bdd0ef, type: 3}
@@ -11502,8 +11502,8 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 360
+  searchDistance: 1000
   modelRotateSpeed: 0
 --- !u!4 &2040403025 stripped
 Transform:
@@ -11787,14 +11787,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 600
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  viewingAngle: 360
+  searchDistance: 1000
+  modelRotateSpeed: 20
 --- !u!4 &2057686619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 646ee21d25e76074e948fe1dfad364e0, type: 3}
@@ -11890,10 +11890,10 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
-  modelRotateSpeed: 0
+  searchPlaceRang: 2000
+  viewingAngle: 100
+  searchDistance: 700
+  modelRotateSpeed: 20
 --- !u!1001 &2097949878
 PrefabInstance:
   m_ObjectHideFlags: 0

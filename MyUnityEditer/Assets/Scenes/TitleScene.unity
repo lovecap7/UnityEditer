@@ -1198,6 +1198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_parentObject: {fileID: 645476167}
   m_name: TitleTransformData
+  m_fileName: Other
 --- !u!1001 &672507619
 PrefabInstance:
   m_ObjectHideFlags: 0

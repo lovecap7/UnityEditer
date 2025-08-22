@@ -2328,7 +2328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
@@ -8137,13 +8137,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &863534167
 PrefabInstance:
@@ -8459,12 +8459,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 120
+  viewingAngle: 360
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!4 &897043592 stripped
@@ -13065,13 +13065,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &1337051369
 PrefabInstance:
@@ -14269,13 +14269,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1 &1420411426 stripped
 GameObject:
@@ -15751,13 +15751,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &1550952974
 PrefabInstance:
@@ -16548,13 +16548,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!4 &1607797178 stripped
 Transform:
@@ -20796,12 +20796,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 120
+  viewingAngle: 360
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!4 &2023598693 stripped
@@ -21111,13 +21111,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 1500
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
-  viewingAngle: 0
-  searchDistance: 0
+  viewingAngle: 250
+  searchDistance: 500
   modelRotateSpeed: 0
 --- !u!4 &2054225246 stripped
 Transform:
@@ -21136,13 +21136,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 400
   armor: 0
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
   viewingAngle: 360
-  searchDistance: 400
+  searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &2055475285
 PrefabInstance:
@@ -21490,7 +21490,7 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 120
+  viewingAngle: 360
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!1001 &2078779372
@@ -22249,7 +22249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72d9cd0db81190645990376c131835fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 1000
+  hp: 800
   armor: 0
   attackPower: 100
   speed: 2
