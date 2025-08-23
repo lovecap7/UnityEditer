@@ -6046,7 +6046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 7000
-  armor: 0
+  armor: 2
   attackPower: 100
   speed: 2
   searchPlaceRang: 0
@@ -8141,8 +8141,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &863534167
@@ -8464,7 +8464,7 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 360
+  viewingAngle: 130
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!4 &897043592 stripped
@@ -13069,8 +13069,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &1337051369
@@ -14273,8 +14273,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1 &1420411426 stripped
@@ -15755,8 +15755,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &1550952974
@@ -16552,8 +16552,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!4 &1607797178 stripped
@@ -20801,7 +20801,7 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 360
+  viewingAngle: 130
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!4 &2023598693 stripped
@@ -21140,8 +21140,8 @@ MonoBehaviour:
   armor: 0
   attackPower: 100
   speed: 2
-  searchPlaceRang: 0
-  viewingAngle: 360
+  searchPlaceRang: 300
+  viewingAngle: 130
   searchDistance: 600
   modelRotateSpeed: 30
 --- !u!1001 &2055475285
@@ -21490,7 +21490,7 @@ MonoBehaviour:
   attackPower: 100
   speed: 2
   searchPlaceRang: 600
-  viewingAngle: 360
+  viewingAngle: 120
   searchDistance: 800
   modelRotateSpeed: 25
 --- !u!1001 &2078779372
