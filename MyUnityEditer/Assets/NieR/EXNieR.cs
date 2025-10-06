@@ -16,7 +16,7 @@ public class EXNieR : MonoBehaviour
     void Start()
     {
         List<string> lines = new List<string>();
-        lines.Add("名前,アクタータイプ,座標X,座標Y,座標Z,回転X,回転Y,回転Z,大きさX,大きさY,大きさZ,モデルのパス,優先度,当たり判定無視,トリガー,重力を受ける");
+        lines.Add("名前,アクタータイプ,座標X,座標Y,座標Z,回転X,回転Y,回転Z,大きさX,大きさY,大きさZ,モデルのパス,優先度,ゲームタグ,当たり判定無視,トリガー,重力を受ける,コリジョンの半径,コリジョンの高さ");
 
         string actorType = m_actorType.ToString();
 
@@ -29,9 +29,18 @@ public class EXNieR : MonoBehaviour
             Vector3 rot = child.eulerAngles;
             Vector3 scale = child.localScale;
 
+            //フラグ
+            string isTrough = "false";
+            if(actorData.m_isTrough) isTrough="true";
+            string isTrigger = "false";
+            if (actorData.m_isTrigger) isTrigger = "true";
+            string isGravity = "false";
+            if (actorData.m_isGravity) isGravity = "true";
+
             string line = $"{child.name},{actorType},{pos.x},{pos.y},{pos.z}," +
                           $"{rot.x},{rot.y},{rot.z},{scale.x},{scale.y},{scale.z}," +
-                          $"{actorData.m_modelPath},{actorData.m_priority},{actorData.m_isTrough},{actorData.m_isTrigger},{actorData.m_isGravity}";
+                          $"{actorData.m_modelPath},{actorData.m_priority},{actorData.m_gameTag},{isTrough},{isTrigger},{isGravity}," +
+                          $"{actorData.m_collRadius},{actorData.m_collHeight}";
             lines.Add(line);
         }
 
