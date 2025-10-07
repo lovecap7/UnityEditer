@@ -30,12 +30,12 @@ public class EXNieR : MonoBehaviour
             Vector3 scale = child.localScale;
 
             //ƒtƒ‰ƒO
-            string isTrough = "false";
-            if(actorData.m_isTrough) isTrough="true";
-            string isTrigger = "false";
-            if (actorData.m_isTrigger) isTrigger = "true";
-            string isGravity = "false";
-            if (actorData.m_isGravity) isGravity = "true";
+            string isTrough = "0";
+            if(actorData.m_isTrough) isTrough="1";
+            string isTrigger = "0";
+            if (actorData.m_isTrigger) isTrigger = "1";
+            string isGravity = "0";
+            if (actorData.m_isGravity) isGravity = "1";
 
             string line = $"{child.name},{actorType},{pos.x},{pos.y},{pos.z}," +
                           $"{rot.x},{rot.y},{rot.z},{scale.x},{scale.y},{scale.z}," +
