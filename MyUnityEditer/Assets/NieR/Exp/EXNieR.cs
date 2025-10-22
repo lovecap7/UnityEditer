@@ -18,7 +18,7 @@ public class EXNieR : MonoBehaviour
         List<string> lines = new List<string>();
         lines.Add("名前,ID,アクタータイプ,座標X,座標Y,座標Z,回転X,回転Y,回転Z,大きさX,大きさY,大きさZ," +
             "モデルのパス,優先度,ゲームタグ,当たり判定無視,トリガー," +
-            "重力を受ける,コリジョンの半径,コリジョンの高さ");
+            "重力を受ける,コリジョンの半径,コリジョンの高さ,アニメーションのパス,攻撃データのパス");
 
         string actorType = m_actorType.ToString();
 
@@ -43,7 +43,7 @@ public class EXNieR : MonoBehaviour
             string line = $"{child.name},{id.m_myID},{actorType},{pos.x},{pos.y},{pos.z}," +
                           $"{rot.x},{rot.y},{rot.z},{scale.x},{scale.y},{scale.z}," +
                           $"{actorData.m_modelPath},{actorData.m_priority},{actorData.m_gameTag},{isTrough},{isTrigger},{isGravity}," +
-                          $"{actorData.m_collRadius},{actorData.m_collHeight}";
+                          $"{actorData.m_collRadius},{actorData.m_collHeight},{actorData.m_animPath},{actorData.m_attackPath}";
             lines.Add(line);
         }
 
