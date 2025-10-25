@@ -14,10 +14,13 @@ public class CharaStatusData : MonoBehaviour
 		Heavy = 2,
 		Heaviest = 3,
 	};  
-    public int      m_hp;   //最大体力
-    public int      m_at;   //攻撃力
-    public int      m_df;   //防御力
-    public float    m_ms;   //移動速度
-    public float    m_jp;   //ジャンプ力
-    public Armor    m_ar;   //アーマー
+    public int      m_hp;       //最大体力
+    public int      m_at;       //攻撃力
+    public int      m_df;       //防御力
+    public float    m_ms;       //移動速度
+    public float    m_jp;       //ジャンプ力
+    public Armor    m_ar;       //アーマー
+    public float m_searchRange;//索敵範囲
+    public float m_searchAngle; //索敵アングル
+    public float m_meleeAttackRange;	//近接攻撃距離
 }
