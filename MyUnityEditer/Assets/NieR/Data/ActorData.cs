@@ -41,8 +41,6 @@ public class ActorData : MonoBehaviour
     public float m_collRadius;
     //高さ(カプセルで必要)
     public float m_collHeight;
-    //アニメーションのパス
-    public string m_animPath = "None";
-    //攻撃データのパス
-    public string m_attackPath = "None";
+    //パスをまとめたパス
+    public string m_csvPathData = "None";
 }
