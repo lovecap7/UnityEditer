@@ -176,7 +176,7 @@ MonoBehaviour:
   m_ar: 0
   m_searchRange: 1000
   m_searchAngle: 60
-  m_meleeAttackRange: 180
+  m_meleeAttackRange: 0
 --- !u!114 &5738186998010469965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,5 +209,5 @@ MonoBehaviour:
   m_isTrigger: 0
   m_isGravity: 1
   m_collRadius: 30
-  m_collHeight: 70
+  m_collHeight: 120
   m_csvPathData: Enemy/Robot2/Robot2PathData

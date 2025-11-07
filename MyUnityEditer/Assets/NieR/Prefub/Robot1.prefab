@@ -209,5 +209,5 @@ MonoBehaviour:
   m_isTrigger: 0
   m_isGravity: 1
   m_collRadius: 30
-  m_collHeight: 70
+  m_collHeight: 120
   m_csvPathData: Enemy/Robot1/Robot1PathData
