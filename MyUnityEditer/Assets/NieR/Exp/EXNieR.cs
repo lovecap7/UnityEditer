@@ -10,7 +10,7 @@ public class EXNieR : MonoBehaviour
     public string m_name = "ObjectTransformData";
     public string m_fileName = "Stage1";
 
-    public enum ActorType { None, Character, Stage, Attack };
+    public enum ActorType { None, Character, Stage, CheckPoint, Attack };
     public ActorType m_actorType = ActorType.None;
 
     void Start()
