@@ -419,6 +419,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -754,6 +758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -907,6 +915,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
@@ -1035,6 +1047,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 80
@@ -1265,6 +1281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -2092,6 +2112,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -4081,6 +4105,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 320373465}
     m_Modifications:
+    - target: {fileID: 4708969369857122029, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
+      propertyPath: m_gameTag
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6956260104538689537, guid: bf5e63dce2aa22443ab6b6d53eab99a1, type: 3}
       propertyPath: m_LocalScale.x
       value: 60
