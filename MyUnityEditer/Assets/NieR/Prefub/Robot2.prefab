@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_hp: 1000
   m_at: 200
-  m_df: 200
+  m_df: 100
   m_ms: 3
   m_jp: 20
   m_ar: 0
