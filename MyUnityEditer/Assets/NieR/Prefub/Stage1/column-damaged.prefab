@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4863778950402929100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.6325426
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.561607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      propertyPath: m_Name
+      value: column-damaged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164722315263546641}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3846230127011630504}
+  m_SourcePrefab: {fileID: 100100000, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+--- !u!1 &5746299548356365469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 59d514a29d62ede46ab41332015440eb, type: 3}
+  m_PrefabInstance: {fileID: 4863778950402929100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164722315263546641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746299548356365469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff0dc1a080620840994239406168272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_myID: 0
+--- !u!114 &3846230127011630504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5746299548356365469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d553a45a1eb75c246b714072faf13db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_modelPath: Stage1/column-damaged
+  m_priority: 0
+  m_gameTag: 4
+  m_isTrough: 1
+  m_isTrigger: 0
+  m_isGravity: 0
+  m_collRadius: 0
+  m_collHeight: 0
+  m_csvPathData: None
