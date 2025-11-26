@@ -94,10 +94,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_modelPath: Stage1/water
-  m_priority: 0
+  m_priority: 4
   m_gameTag: 4
   m_isTrough: 1
-  m_isTrigger: 0
+  m_isTrigger: 1
   m_isGravity: 0
   m_collRadius: 0
   m_collHeight: 0
