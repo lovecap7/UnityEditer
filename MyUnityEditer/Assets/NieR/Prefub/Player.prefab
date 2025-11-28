@@ -5830,7 +5830,7 @@ MonoBehaviour:
   m_ms: 10
   m_jp: 15
   m_ar: 0
-  m_searchRange: 3000
+  m_searchRange: 4000
   m_searchAngle: 0
   m_meleeAttackRange: 0
 --- !u!1 &3917787726228208127
