@@ -24,6 +24,7 @@ public class ActorData : MonoBehaviour
         Field,      //フィールド
         Attack,     //攻撃
         Area,       //エリア
+        Sky,        //空
     };
     //モデルのパス
     public string m_modelPath;
