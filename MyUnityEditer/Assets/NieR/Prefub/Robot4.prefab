@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_modelPath: Enemy/Normal/Robot4
-  m_priority: 2
+  m_priority: 1
   m_gameTag: 2
   m_isTrough: 0
   m_isTrigger: 0
