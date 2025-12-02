@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d553a45a1eb75c246b714072faf13db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_modelPath: Stage/DBK_Concrete_Pillar_A
+  m_modelPath: Stage2/DBK_Concrete_Pillar_A
   m_priority: 4
   m_gameTag: 4
   m_isTrough: 1
