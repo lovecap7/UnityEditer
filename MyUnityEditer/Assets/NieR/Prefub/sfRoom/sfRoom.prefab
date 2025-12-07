@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -48,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7854692815314667284, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -58,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 44d9e5271b8d55543a9428fac1794cbc, type: 2}
     - target: {fileID: 919132149155446097, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
       propertyPath: m_Name
-      value: sfRoom 1
+      value: sfRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1764984818758749445, guid: 7cd94e36e39a8484fb99f9fa37937fb8, type: 3}
       propertyPath: m_Materials.Array.data[0]
