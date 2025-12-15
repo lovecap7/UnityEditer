@@ -13,7 +13,7 @@ public class ExCharaData : MonoBehaviour
     void Start()
     {
         List<string> lines = new List<string>();
-        lines.Add("名前,ID,体力,攻撃力,防御力,移動速度,ジャンプ力,アーマー,索敵範囲,視野角,近距離攻撃範囲");
+        lines.Add("名前,ID,体力,攻撃力,防御力,移動速度,ジャンプ力,アーマー,索敵範囲,視野角,近距離攻撃範囲,グループタグ");
         foreach (Transform child in m_parentObject.transform)
         {
             var charaData = child.GetComponent<CharaStatusData>();
@@ -21,7 +21,7 @@ public class ExCharaData : MonoBehaviour
             if (charaData == null) continue;
 
             string line = $"{child.name},{id.m_myID},{charaData.m_hp},{charaData.m_at},{charaData.m_df}," +
-                $"{charaData.m_ms},{charaData.m_jp},{(int)charaData.m_ar},{charaData.m_searchRange},{charaData.m_searchAngle},{charaData.m_meleeAttackRange}";
+                $"{charaData.m_ms},{charaData.m_jp},{(int)charaData.m_ar},{charaData.m_searchRange},{charaData.m_searchAngle},{charaData.m_meleeAttackRange},{child.tag}";
             lines.Add(line);
         }
 

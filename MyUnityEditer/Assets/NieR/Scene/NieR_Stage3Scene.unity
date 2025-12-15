@@ -659,6 +659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b583eb9bfe1e8d243bffdc914e2da0d4, type: 3}
+      propertyPath: m_TagString
+      value: None
+      objectReference: {fileID: 0}
     - target: {fileID: 6420742162798960526, guid: b583eb9bfe1e8d243bffdc914e2da0d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -735,8 +739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_hp: 5000
   m_at: 500
-  m_df: 500
-  m_ms: 3
+  m_df: 300
+  m_ms: 8
   m_jp: 20
   m_ar: 2
   m_searchRange: 2000
@@ -1043,6 +1047,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4505322039616730596, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}

@@ -5220,6 +5220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot2
       objectReference: {fileID: 0}
+    - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_TagString
+      value: Group2
+      objectReference: {fileID: 0}
     - target: {fileID: 7513590621227017273, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -7079,7 +7083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2578554505307968812, guid: 89f9ba3785a6c3d43b46205241488d83, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2578554505307968812, guid: 89f9ba3785a6c3d43b46205241488d83, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7116,6 +7120,10 @@ PrefabInstance:
     - target: {fileID: 2919191301552148374, guid: 89f9ba3785a6c3d43b46205241488d83, type: 3}
       propertyPath: m_Name
       value: Boss3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919191301552148374, guid: 89f9ba3785a6c3d43b46205241488d83, type: 3}
+      propertyPath: m_TagString
+      value: None
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9916,13 +9924,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot1
       objectReference: {fileID: 0}
+    - target: {fileID: 7109312756723200300, guid: 37496e284639d06488b5128c5c126e35, type: 3}
+      propertyPath: m_TagString
+      value: Group1
+      objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 2.22
       objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11412,6 +11424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7109312756723200300, guid: 37496e284639d06488b5128c5c126e35, type: 3}
+      propertyPath: m_TagString
+      value: Group1
+      objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.35
@@ -11702,6 +11718,10 @@ PrefabInstance:
     - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_Name
       value: Robot2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_TagString
+      value: Group2
       objectReference: {fileID: 0}
     - target: {fileID: 7513590621227017273, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16824,6 +16844,10 @@ PrefabInstance:
     - target: {fileID: 7109312756723200300, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_Name
       value: Robot1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109312756723200300, guid: 37496e284639d06488b5128c5c126e35, type: 3}
+      propertyPath: m_TagString
+      value: Group1
       objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22977,13 +23001,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot1
       objectReference: {fileID: 0}
+    - target: {fileID: 7109312756723200300, guid: 37496e284639d06488b5128c5c126e35, type: 3}
+      propertyPath: m_TagString
+      value: None
+      objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.73
       objectReference: {fileID: 0}
     - target: {fileID: 7629813437271632790, guid: 37496e284639d06488b5128c5c126e35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29697,6 +29725,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4505322039616730596, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}

@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3035152400754219442, guid: 4f5d50969fdf7974282ca246101d3b60, type: 3}
+      propertyPath: m_TagString
+      value: None
+      objectReference: {fileID: 0}
     - target: {fileID: 3221357578304475396, guid: 4f5d50969fdf7974282ca246101d3b60, type: 3}
       propertyPath: m_df
       value: 30
@@ -224,11 +228,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122896453309600441, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
       propertyPath: m_collRadius
-      value: 800
+      value: 1200
       objectReference: {fileID: 0}
     - target: {fileID: 4950730620174830919, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
       propertyPath: m_Name
       value: Boss2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950730620174830919, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
+      propertyPath: m_TagString
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 5764422703085508605, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
       propertyPath: m_LocalScale.x
@@ -248,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5764422703085508605, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5764422703085508605, guid: d021b2e8652debe43bf7a8a70ac77b9c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -618,6 +626,10 @@ PrefabInstance:
     - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_Name
       value: Robot3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
+      propertyPath: m_TagString
+      value: Group2
       objectReference: {fileID: 0}
     - target: {fileID: 9213320887469060727, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2057,6 +2069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot4
       objectReference: {fileID: 0}
+    - target: {fileID: 4984668720326415367, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
+      propertyPath: m_TagString
+      value: Group1
+      objectReference: {fileID: 0}
     - target: {fileID: 5649424222854762173, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.582335
@@ -2138,6 +2154,10 @@ PrefabInstance:
     - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_Name
       value: Robot3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
+      propertyPath: m_TagString
+      value: Group3
       objectReference: {fileID: 0}
     - target: {fileID: 9213320887469060727, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2759,15 +2779,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_df
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_ms
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_searchRange
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_Name
       value: Robot2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_TagString
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 7513590621227017273, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3513,6 +3541,10 @@ PrefabInstance:
     - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_Name
       value: Robot3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
+      propertyPath: m_TagString
+      value: Group2
       objectReference: {fileID: 0}
     - target: {fileID: 9213320887469060727, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5564,6 +5596,10 @@ PrefabInstance:
     - target: {fileID: 4984668720326415367, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
       propertyPath: m_Name
       value: Robot4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984668720326415367, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
+      propertyPath: m_TagString
+      value: Group1
       objectReference: {fileID: 0}
     - target: {fileID: 5649424222854762173, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11935,6 +11971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot3
       objectReference: {fileID: 0}
+    - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
+      propertyPath: m_TagString
+      value: Group2
+      objectReference: {fileID: 0}
     - target: {fileID: 9213320887469060727, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.256797
@@ -17590,6 +17630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8401353113352005837, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
+      propertyPath: m_TagString
+      value: Group3
+      objectReference: {fileID: 0}
     - target: {fileID: 9213320887469060727, guid: f0d04f4efb445dd4e9471a49e905a381, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.408674
@@ -17660,15 +17704,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_df
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_ms
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_searchRange
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_Name
       value: Robot2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_TagString
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 7513590621227017273, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18289,15 +18341,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_df
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_ms
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4681824997097633465, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_searchRange
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_Name
       value: Robot2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137768288670531203, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
+      propertyPath: m_TagString
+      value: None
       objectReference: {fileID: 0}
     - target: {fileID: 7513590621227017273, guid: da26c7d7d120c9a44938e4434538861a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20564,6 +20624,10 @@ PrefabInstance:
     - target: {fileID: 4984668720326415367, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
       propertyPath: m_Name
       value: Robot4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984668720326415367, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
+      propertyPath: m_TagString
+      value: Group1
       objectReference: {fileID: 0}
     - target: {fileID: 5649424222854762173, guid: ff2eb79ae9c9ab7468d03ddf4680805e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27601,6 +27665,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876981537252028254, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4505322039616730596, guid: 070035a6577bc35499b0fb9d7d95ca4e, type: 3}
